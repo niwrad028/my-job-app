@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/********** Template CSS **********/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2B3940;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  color: #2B3940;
+}
+
+button {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+  border-radius: 2px;
+}
+
+.btn-heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: initial;
+
+}
+
+.nav-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.nav-active {
+  border-bottom: 2px solid #051a49;
+}
+
+select,
+input {
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #666565;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+.cat-item {
+  display: block;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  border: 1px solid transparent;
+  transition: .5s;
+}
+
+a.cat-item {
+  color: #e60278;
+}
+
+h6,
+.cat-item h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2B3940;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.svg-cat {
+  fill: #e60278;
+  width: 3em;
+  line-height: 1;
+  height: 3em;
+  margin-bottom: 1.5rem;
+}
+
+.svg-joblist {
+  fill: #e60278;
+  width: 1rem;
+  height: 1rem;
+}
+
+.job-type {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+}
+
+.job-item {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.job-item:hover {
+  border-color: rgba(0, 0, 0, .08);
+  box-shadow: none;
+}
+
+.btn-apply {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  transition: .5s;
+  background-color: #e60278;
+  border-color: #e60278;
+  display: inline-block;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 2px;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  color: white;
+}
